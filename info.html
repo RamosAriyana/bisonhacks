@@ -1,0 +1,45 @@
+<!-- Info -->
+  <section id="register" class="content-section">
+    <div class="row full" >
+
+      <div class="col-md-6 blue-theme" >
+        <div class="register-info">
+          <div class="center">
+            <p>Howard University's Official Annual Hackathon </p>
+            <p style="font-size: 20px;"> <span class="red-letter">[</span> Bison Hacks <span class="red-letter">]</span> </p>
+          </div>
+
+          <label>WHERE</label>
+          <p>Inclusive Innovation Incubator <br/> 2301 Georgia Ave NW, Washington, DC 20001</p>
+
+          <label>START</label>
+          <p>March 29, 2019 6:30PM </p>
+
+          <label>END</label>
+          <p>March 30, 2019 6:30PM </p>
+
+          <label>WHO</label>
+          <p>For students in the DMV area and Howard University students</p>
+
+        </div>
+      </div>
+
+<!--- Map --->
+  <div id="remove-map" style='width: 600; height: 850;' class="col-md-6 map-container" >
+        <div class="mapbox-maps">
+          <script>
+          mapboxgl.accessToken = 'pk.eyJ1IjoicmFtb3Nhcml5YW5hIiwiYSI6ImNqcmh3dGN4NDAzMGI0Y3BvZDF5Mjh5aW0ifQ.zJilWtFPB8SmDnjY5YZZdw';
+          var map = new mapboxgl.Map({
+          container: 'remove-map',
+          center: [-77.0219, 38.9207],
+          zoom: 16.00,
+          style: 'mapbox://styles/ramosariyana/cjrhx9b2r9bl52sutwx3pjc5s'
+          });
+          map.addControl(new mapboxgl.NavigationControl());
+          </script>
+        </div>
+      </div>
+
+</body>
+
+</html>
